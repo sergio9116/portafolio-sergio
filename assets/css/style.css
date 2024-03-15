@@ -2,7 +2,7 @@
   --hh: 90px;
   --color-primary: rgb(29, 153, 128);
 
-  --bg-body: #fff;
+  --bg-body: #E4EEEB;
   --txt-body: #222;
 
   /* Colors */
@@ -290,7 +290,7 @@ span.hero__typing {
 .contact__links {
   display: flex;
   flex-wrap: wrap;
-  gap: 16px;
+  gap: px;
 }
 
 .contact__link {
