@@ -1,251 +1,345 @@
 <!DOCTYPE html>
 <html lang='es'>
-  <head>
-    <meta charset='UTF-8'>
-    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
-    <title>Portafolio Sergio Jurado</title>
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <link rel='stylesheet' href='assets/css/style.css'>
-  </head>
-  <body>
-    <header class="header">
-      <nav class="nav container">
-        <a href='#' class="logo">
-          <i class='bx bxl-xing logo__icon'></i>
-          <span>SAJM</span>
-        </a>
 
-        <div class="nav__menu">
-          <button type="button" class="btn btn--close" aria-label="cerrar">
-            <i class='bx bx-x'></i>
-          </button>
+<head>
+  <meta charset='UTF-8'>
+  <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-          <ul class="nav__list">
-            <li class="nav__item">
-              <a href='#hero' class="nav__link">Inicio</a>
-            </li>
-            <li class="nav__item">
-              <a href='#about' class="nav__link">About</a>
-            </li>
-            <li class="nav__item">
-              <a href='#works' class="nav__link">Works</a>
-            </li>
-            <li class="nav__item">
-              <a href='#contact' class="nav__link">Contact</a>
-            </li>
-          </ul>
-        </div>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+    integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>Portafolio Sergio Jurado</title>
+  <link rel="icon" type="imagen/jpg" href="./assets/img/portafolio.jpg">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel='stylesheet' href='assets/css/style.css'>
+</head>
 
-        <button type="button" class="btn btn--open" aria-label="abrir">
-          <i class='bx bx-menu'></i>
+<body>
+  <header class="header">
+    <nav class="nav container">
+      <a href='#' class="logo">
+        <i class='bx bxl-xing logo__icon'></i>
+        <span>SAJM</span>
+      </a>
+
+      <div class="nav__menu">
+        <button type="button" class="btn btn--close" aria-label="cerrar">
+          <i class='bx bx-x'></i>
         </button>
-      </nav>
-    </header>
 
-    <main>
-      <section id="hero" class="section hero">
-        <div class='container'>
-          <div class='hero__content'>
-            <div>
-              <h1 class='hero__title'>👋🏻 ¡Hola!, soy...<br>
-                <span class="hero__name">Sergio Jurado</span>
-              </h1>
-              <p class='hero__description'>
-                <span>
-                  <span id="typing" class="hero__typing"></span> developer.
-                </span>
-                <br> Un desarrollador autodidacta.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section id="about" class="section about">
-        <div class='container'>
-          <h2 class='section__title'>⚡ Acerca de Mí</h2> 
-          <div class='about__content'>
-            <div class='about__info'>
-              <p>Actualmente soy estudiante de <a href="https://www.academlo.com/" target="_blank"><strong>Academlo</strong></a> con toda la motivacion y actitud de aprender ese arte del desarrollo Web y asi mismo lograr adquirir muchos conocimientos que me permitan desarrollarme no solo en mi area profesional si no 
-                tambien en mi area personal.</p>
-
-              <p>Lorem dolor, sit amet consectetur adipisicing elit. Provident non dignissimos deleniti saepe modi quod repellat, maxime amet vero animi, <a href='#'>aliquid magni</a> commodi architecto, ducimus molestias itaque nemo <a href='#'>quam laborum</a>.</p>
-            </div>
-            <div class='about__image'>
-              <img src='assets/img/profile_dev.jpg' alt='' class="about__img">
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section id="works" class="section section--color works">
-        <div class='container'>
-          <h2 class='section__title'>Mis proyectos</h2>
-          <p class="section__description">Estos son algunos de mis proyectos en los que he trabajado.</p>
-
-          <div class='works__content'>
-            <!--Card 1-->
-            <div class='works__item'>
-              <div class='works__image'>
-                <img src='assets/img/work-bg.png' alt='img app' class='works_img'>
-              </div>
-              <div class='works__body'>
-                <div class="works__head">
-                  <h3 class='works__title'>Proyecto #1</h3>
-                  <div class='works__links'>
-                    <a href='#' target="_blank" aria-label="Ir al repositorio">
-                      <i class='bx bxl-github'></i>
-                    </a>
-
-                    <a href='#' target="_blank" aria-label="Ver proyecto">
-                      <i class='bx bx-link-external'></i>
-                    </a>
-                  </div>
-                </div>
-
-                <div class='works__skills'>
-                  <span class="works__skill">
-                    <i class='bx bxl-javascript'></i> JavaScript
-                  </span>
-                  <span class="works__skill">
-                    <i class='bx bxl-css3'></i> CSS
-                  </span>
-                  <span class="works__skill">
-                    <i class='bx bxl-html5'></i> HTML
-                  </span>
-                </div>
-              </div>
-            </div>
-
-            <!--Card 2-->
-            <div class='works__item'>
-              <div class='works__image'>
-                <img src='assets/img/work-bg.png' alt='img app' class='works_img'>
-              </div>
-              <div class='works__body'>
-                <div class="works__head">
-                  <h3 class='works__title'>Proyecto #2</h3>
-                  <div class='works__links'>
-                    <a href='#' target="_blank" aria-label="Ir al repositorio">
-                      <i class='bx bxl-github'></i>
-                    </a>
-
-                    <a href='#' target="_blank" aria-label="Ver proyecto">
-                      <i class='bx bx-link-external'></i>
-                    </a>
-                  </div>
-                </div>
-
-                <div class='works__skills'>
-                  <span class="works__skill">
-                    <i class='bx bxl-javascript'></i> JavaScript
-                  </span>
-                  <span class="works__skill">
-                    <i class='bx bxl-css3'></i> CSS
-                  </span>
-                  <span class="works__skill">
-                    <i class='bx bxl-html5'></i> HTML
-                  </span>
-                </div>
-              </div>
-            </div>
-
-            <!--Card 3-->
-            <div class='works__item'>
-              <div class='works__image'>
-                <img src='assets/img/work-bg.png' alt='img app' class='works_img'>
-              </div>
-              <div class='works__body'>
-                <div class="works__head">
-                  <h3 class='works__title'>Proyecto #3</h3>
-                  <div class='works__links'>
-                    <a href='#' target="_blank" aria-label="Ir al repositorio">
-                      <i class='bx bxl-github'></i>
-                    </a>
-
-                    <a href='#' target="_blank" aria-label="Ver proyecto">
-                      <i class='bx bx-link-external'></i>
-                    </a>
-                  </div>
-                </div>
-
-                <div class='works__skills'>
-                  <span class="works__skill">
-                    <i class='bx bxl-javascript'></i> JavaScript
-                  </span>
-                  <span class="works__skill">
-                    <i class='bx bxl-css3'></i> CSS
-                  </span>
-                  <span class="works__skill">
-                    <i class='bx bxl-html5'></i> HTML
-                  </span>
-                </div>
-              </div>
-            </div>
-
-            <!--Card 4-->
-            <div class='works__item'>
-              <div class='works__image'>
-                <img src='assets/img/work-bg.png' alt='img app' class='works_img'>
-              </div>
-              <div class='works__body'>
-                <div class="works__head">
-                  <h3 class='works__title'>Proyecto #4</h3>
-                  <div class='works__links'>
-                    <a href='#' target="_blank" aria-label="Ir al repositorio">
-                      <i class='bx bxl-github'></i>
-                    </a>
-
-                    <a href='#' target="_blank" aria-label="Ver proyecto">
-                      <i class='bx bx-link-external'></i>
-                    </a>
-                  </div>
-                </div>
-
-                <div class='works__skills'>
-                  <span class="works__skill">
-                    <i class='bx bxl-javascript'></i> JavaScript
-                  </span>
-                  <span class="works__skill">
-                    <i class='bx bxl-css3'></i> CSS
-                  </span>
-                  <span class="works__skill">
-                    <i class='bx bxl-html5'></i> HTML
-                  </span>
-                </div>
-              </div>
-            </div>  
-          </div>
-        </div>
-      </section>
-
-      <section id="contact" class="section">
-        <div class='container'>
-          <h2 class='section__title'>Estamos en contacto.</h2>
-          <p class="section__description">No dudes en ponerte en contacto con nosotros y trabajaremos en tus proyectos.</p>
-
-          <div class='contact__links'>
-            <a class="contact__link" href='https://www.linkedin.com/in/miCuenta/' target="_blank" rel="noopener">
-              <i class='bx bxl-linkedin'></i> Contactame
-            </a>
-            <a class="contact__link" href='mailto:micorreo@correo.com'>
-              <i class='bx bxs-envelope'></i> Enviar correo
-            </a>
-            <a class="contact__link" href='https://github.com/miCuenta'>
-              <i class='bx bxl-github'></i> Repositorio
-            </a>
-          </div>
-        </div>
-      </section>
-    </main>
-
-    <footer class="footer">
-      <div class='container'>
-        <p class="copy">🚀 Diseñado y desarrollado por Sergio Jurado.</p>
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href='#hero' class="nav__link">Inicio</a>
+          </li>
+          <li class="nav__item">
+            <a href='#about' class="nav__link">Acerca de mi</a>
+          </li>
+          <li class="nav__item">
+            <a href='#skills' class="nav__link">Mis habilidades</a>
+          </li>
+          <li class="nav__item">
+            <a href='#works' class="nav__link">Proyectos</a>
+          </li>
+          <li class="nav__item">
+            <a href='#contact' class="nav__link">Contacto</a>
+          </li>
+        </ul>
       </div>
-    </footer>
 
-    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
-    <script src='assets/js/index.js'></script>
-  </body>
+      <button type="button" class="btn btn--open" aria-label="abrir">
+        <i class='bx bx-menu'></i>
+      </button>
+    </nav>
+  </header>
+
+  <main>
+    <section id="hero" class="section hero">
+      <div class='container'>
+        <div class='hero__content'>
+          <div>
+            <h1 class='hero__title'>👋🏻 ¡Hola!, soy...<br>
+              <span class="hero__name">Sergio Jurado</span>
+            </h1>
+            <p class='hero__description'>
+              <span>
+                <span id="typing" class="hero__typing"></span> developer.
+              </span>
+              <br> Un desarrollador autodidacta.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section about">
+      <div class='container'>
+        <h2 class='section__title'> Acerca de Mí</h2>
+        <div class='about__content'>
+          <div class='about__info'>
+            <p>Soy un Desarrollador Frontend, enfocando mi trabajo en un estilo personal, profesional e interesante para
+              el publico.
+            </p>
+            <p>
+              Disfruto de mi trabajo ya que encuentro en éste la manera de plasmar mi conocimiento y me desafia a
+              capacitarme en esta era digital que es tan cambiante dia a dia.
+            </p>
+          </div>
+          <div class='about__image'>
+            <img src='assets/img/profile_dev.jpg' alt='' class="about__img">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section skills">
+      <div class="content__section">
+        <div class="skills__title">
+          <h2>Mis habilidades</h2>
+        </div>
+        <div class="skills__contenido">
+          <span class="skills__span">
+            Estas son las bases de mi éxito:
+          </span>
+          <hr>
+          <p class="skills__parrafo">
+            Mis capacidades técnicas y profesionales se convierten en el motor que me impulsan a superar desafíos y
+            crear soluciones innovadoras.
+
+            Habilidades en diversas tecnologias web que han sido herramientas esenciales en mis proyectos.
+          </p>
+        </div>
+        <div class="skills__img">
+
+          <div class="skills__card">
+            <div class="img__card">
+              <img class="link" src="./assets/img/svg/html.svg" alt="html">
+            </div>
+            <span class="card__title">HTML</span>
+            <span class="card__text">Front-End</span>
+          </div>
+
+          <div class="skills__card">
+            <div class="img__card">
+              <img class="link" src="./assets/img/svg/css.svg" alt="Css">
+            </div>
+            <span class="card__title">CSS</span>
+            <span class="card__text">Front-End</span>
+          </div>
+
+          <div class="skills__card">
+            <div class="img__card">
+              <img class="link" src="./assets/img/svg/javascript.svg" alt="javascript">
+            </div>
+            <span class="card__title">JavaScript</span>
+            <span class="card__text">Lenguajes</span>
+          </div>
+
+          <div class="skills__card">
+            <div class="img__card">
+              <img class="link" src="./assets/img/svg/vite.svg" alt="vite">
+            </div>
+            <span class="card__title">Vite</span>
+            <span class="card__text">Desarrollo</span>
+          </div>
+
+          <div class="skills__card">
+            <div class="img__card">
+              <img class="link" src="./assets/img/svg/react.svg" alt="react">
+            </div>
+            <span class="card__title">React</span>
+            <span class="card__text">Front-End</span>
+          </div>
+
+          <div class="skills__card">
+            <div class="img__card">
+              <img class="link" src="./assets/img/svg/github.svg" alt="GitHub">
+            </div>
+            <span class="card__title">GitHub</span>
+            <span class="card__text">Desarrollo</span>
+          </div>
+
+          <div class="skills__card">
+            <div class="img__card">
+              <img class="link" src="./assets/img/svg/slack.svg" alt="Slack">
+            </div>
+            <span class="card__title">Slack</span>
+            <span class="card__text">Productividad</span>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section id="works" class="section section--color works">
+      <div class='container'>
+        <h2 class='section__title'>Mis proyectos</h2>
+        <p class="section__description">Estos son algunos de mis proyectos en los que he trabajado.</p>
+
+        <div class='works__content'>
+          <!--Card 1-->
+          <div class='works__item'>
+            <div class='works__image'>
+              <img src='assets/img/rym1.webp' alt='img app' class='works_img'>
+            </div>
+            <div class='works__body'>
+              <div class="works__head">
+                <h3 class='works__title'>Proyecto #1</h3>
+                <div class='works__links'>
+                  <a href='https://github.com/sergio9116/rick' target="_blank" aria-label="Ir al repositorio">
+                    <i class='bx bxl-github'></i>
+                  </a>
+
+                  <a href='https://ricksajm.netlify.app' target="_blank" aria-label="Ver proyecto">
+                    <i class='bx bx-link-external'></i>
+                  </a>
+                </div>
+              </div>
+
+              <div class='works__skills'>
+                <span class="works__skill">
+                  <i class='bx bxl-javascript'></i> JavaScript
+                </span>
+                <span class="works__skill">
+                  <i class='bx bxl-css3'></i> CSS
+                </span>
+                <span class="works__skill">
+                  <i class='bx bxl-html5'></i> HTML
+                </span>
+              </div>
+            </div>
+          </div>
+
+          <!--Card 2-->
+          <div class='works__item'>
+            <div class='works__image'>
+              <img src='assets/img/pokemon.webp' alt='img app' class='works_img'>
+            </div>
+            <div class='works__body'>
+              <div class="works__head">
+                <h3 class='works__title'>Proyecto #2</h3>
+                <div class='works__links'>
+                  <a href='https://github.com/sergio9116/pokedex-sajm' target="_blank" aria-label="Ir al repositorio">
+                    <i class='bx bxl-github'></i>
+                  </a>
+
+                  <a href='https://pokedex-sajm.netlify.app' target="_blank" aria-label="Ver proyecto">
+                    <i class='bx bx-link-external'></i>
+                  </a>
+                </div>
+              </div>
+
+              <div class='works__skills'>
+                <span class="works__skill">
+                  <i class='bx bxl-javascript'></i> JavaScript
+                </span>
+                <span class="works__skill">
+                  <i class='bx bxl-css3'></i> CSS
+                </span>
+                <span class="works__skill">
+                  <i class='bx bxl-html5'></i> HTML
+                </span>
+              </div>
+            </div>
+          </div>
+
+          <!--Card 3-->
+          <div class='works__item'>
+            <div class='works__image'>
+              <img src='assets/img/ecommmerce2.webp' alt='img app' class='works_img'>
+            </div>
+            <div class='works__body'>
+              <div class="works__head">
+                <h3 class='works__title'>Proyecto #3</h3>
+                <div class='works__links'>
+                  <a href='https://github.com/sergio9116/cart-sajm' target="_blank" aria-label="Ir al repositorio">
+                    <i class='bx bxl-github'></i>
+                  </a>
+
+                  <a href='https://cart-sajm.netlify.app' target="_blank" aria-label="Ver proyecto">
+                    <i class='bx bx-link-external'></i>
+                  </a>
+                </div>
+              </div>
+
+              <div class='works__skills'>
+                <span class="works__skill">
+                  <i class='bx bxl-javascript'></i> JavaScript
+                </span>
+                <span class="works__skill">
+                  <i class='bx bxl-css3'></i> CSS
+                </span>
+                <span class="works__skill">
+                  <i class='bx bxl-html5'></i> HTML
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+    <section id="contact" class="contacto">
+      <div class='container'>
+        <h2 class='section__title'>Contacto</h2>
+        <p class="section__description">No dudes en ponerte en contacto conmigo y trabajemos en tu proyecto.
+        </p>
+
+        <div class="encierre">
+          <div class='contact__links'>
+            <form action="https://formspree.io/f/meqyddll" method="POST">
+              <input type="text" name="name" placeholder="Tu Nombre">
+              <input type="number" name='number' placeholder="Número telefónico">
+              <input type="email" name='email' placeholder="Dirección de correo">
+              <input type="text" name="message" placeholder="Tema">
+              <textarea name="textarea" cols="30" rows="10" placeholder="Mensaje"></textarea>
+              <button type="submit" id="submit-btn">
+                Enviar Mensaje <i class="fa-solid fa-paper-plane"></i>
+                <span class="overlay"></span>
+              </button>
+            </form>
+          </div>
+          <div class='contact__links'>
+            <img src="./assets/img/madrid.webp" alt="mapa">
+            <div class="info">
+              <ul>
+                <li>
+                  <i class="fa-solid fa-location-dot"></i>
+                  Madrid, Cundinamarca, Colombia
+                </li>
+
+                <li>
+                  <i class="fa-solid fa-mobile-screen"></i>
+                  Llamame al (+57) 3142864650
+                </li>
+
+                <li>
+                  <i class="fa-solid fa-envelope"></i>
+                  Email: sajm9116@gmail.com
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class='container'>
+      <p class="copy">🚀 Diseñado y desarrollado por Sergio Jurado.</p>
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  <script src='assets/js/index.js'></script>
+</body>
+
 </html>
